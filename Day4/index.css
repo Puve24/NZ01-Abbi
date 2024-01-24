@@ -1,0 +1,37 @@
+/* Color Values */
+.color-example {
+  color: rgb(133, 197, 91);
+  background-color: green;
+}
+
+/* Background Color */
+.background-example {
+  background-color: #ff0000;
+}
+
+/* Background Images Positioning and Repeating */
+.background-position-example {
+  background-image: url("C:\Users\puvit\Downloads\NZ01\NZ01-Abbi\Day4\Image20240124191730.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+/* Opacity and Transparency */
+.opacity-example {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+/* Image Sizing and Alignment */
+.image-sizing-example {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+/* Descendant Selector */
+.descendant li {
+  color: green;
+}
+/* Pseudo Classes */
+button:hover {
+    background-color: aqua;
+}
+/* Pseudo Element */
