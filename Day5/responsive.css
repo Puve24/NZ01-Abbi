@@ -1,0 +1,23 @@
+body{
+    font-style: Arial; sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: gray;
+    padding: 20px;
+
+}
+h1{
+    color: white;
+    margin: 0;
+}
+section {
+    padding: 50px;
+    background-color: antiquewhite;
+
+}
+footer {
+    color: white;
+    margin: 0;
+}
