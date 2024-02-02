@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise</title>
+  </head>
+  <body>
+    <script>
+      // Question 1
+      function greet(name) {
+        console.log(`Hello, ${name}! Welcome to the world of functions.`);
+      }
+      greet("Puvi");
+
+      //   Question 2
+
+      const add = function (num1, num2) {
+        return num1 + num2;
+      };
+
+      const result = add(5, 7);
+
+      console.log(`The sum is: ${result}`);
+
+      //   Question 3
+
+      function isEven(number) {
+        return number % 2 === 0;
+      }
+      console.log(isEven(4));
+      console.log(isEven(7));
+
+      //   Question 4
+
+      var globalVar = "I am a global variable";
+
+      function localVarExample() {
+        var globalVar = "I am a local variable";
+        console.log("Local:", globalVar);
+      }
+
+      localVarExample();
+
+      console.log("Global:", globalVar);
+      //   Question 5
+      hoistedFunction(); // This works!
+
+      //  the hoisted function
+      function hoistedFunction() {
+        console.log("This is a hoisted function.");
+      }
+    </script>
+  </body>
+</html>
